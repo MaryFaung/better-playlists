@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-let defaultTextColor = '#ccc';
 let defaultStyle = {
-  color:defaultTextColor
+  color:'#ccc'
 };
 class Aggregate extends Component{
   render() {
@@ -20,7 +18,7 @@ class Filter extends Component{
   render() {
     return(
       <div>
-      <img/>
+      <img alt=""/>
       <input type="text"/>
       </div>
     );
